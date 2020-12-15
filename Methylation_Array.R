@@ -33,6 +33,10 @@ library("Rtsne")
 library("plotly")
 library("qdapTools")
 library("gplots")
+library("grid")
+library("ComplexHeatmap")
+library("circlize")
+library("gplots")
 
 ##### Read in sheet and idat files
 targets <- read.metharray.sheet(baseDir, pattern = "samplesheet.csv")
